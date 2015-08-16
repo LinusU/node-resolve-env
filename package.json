@@ -8,9 +8,10 @@
     "url": "https://github.com/LinusU/node-resolve-env.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "standard": "^5.1.0"
   }
 }
