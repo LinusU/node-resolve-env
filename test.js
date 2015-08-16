@@ -1,6 +1,6 @@
 
 var assert = require('assert');
-var resolveEnv = require('..');
+var resolveEnv = require('./');
 
 var cases = [
   ['Simple test', 'Simple test', {}],
